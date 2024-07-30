@@ -1,0 +1,300 @@
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\Perfume.dll.config
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\Perfume.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\Perfume.pdb
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\csc.exe
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\csc.exe.config
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\csc.rsp
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\csi.exe
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\csi.exe.config
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\csi.rsp
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.Managed.Core.targets
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.AppContext.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Collections.Immutable.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Console.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Globalization.Calendars.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.IO.Compression.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.IO.FileSystem.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Net.Http.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Net.Sockets.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Reflection.Metadata.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.ValueTuple.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Xml.XmlDocument.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Xml.XPath.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\vbc.exe
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\vbc.exe.config
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\vbc.rsp
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\VBCSCompiler.exe
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\roslyn\VBCSCompiler.exe.config
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\Microsoft.Web.Infrastructure.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\System.Web.Helpers.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\System.Web.Mvc.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\System.Web.Razor.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\System.Web.Webpages.Deployment.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\System.Web.Webpages.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\System.Web.Webpages.Razor.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\System.Web.Razor.xml
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\System.Web.Webpages.xml
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\System.Web.Webpages.Deployment.xml
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\System.Web.Webpages.Razor.xml
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\System.Web.Helpers.xml
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\System.Web.Mvc.xml
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\obj\Debug\Perfume.csproj.AssemblyReference.cache
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\obj\Debug\Perfume.csproj.CoreCompileInputs.cache
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\obj\Debug\Perfume.csproj.CopyComplete
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\obj\Debug\Perfume.dll
+D:\lap trinh web\DOAN_LTW\DOAN\Perfume\obj\Debug\Perfume.pdb
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\Perfume.dll.config
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\Perfume.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\Perfume.pdb
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\csc.exe
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\csc.exe.config
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\csc.rsp
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\csi.exe
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\csi.exe.config
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\csi.rsp
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.Managed.Core.targets
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.AppContext.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Collections.Immutable.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Console.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Globalization.Calendars.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.IO.Compression.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.IO.FileSystem.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Net.Http.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Net.Sockets.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Reflection.Metadata.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.ValueTuple.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Xml.XmlDocument.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Xml.XPath.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\vbc.exe
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\vbc.exe.config
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\vbc.rsp
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\VBCSCompiler.exe
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\VBCSCompiler.exe.config
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\EntityFramework.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\EntityFramework.SqlServer.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\Microsoft.Web.Infrastructure.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Helpers.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Mvc.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Razor.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Webpages.Deployment.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Webpages.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Webpages.Razor.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\EntityFramework.xml
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\EntityFramework.SqlServer.xml
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Razor.xml
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Webpages.xml
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Webpages.Deployment.xml
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Webpages.Razor.xml
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Helpers.xml
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Mvc.xml
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\obj\Debug\Perfume.csproj.AssemblyReference.cache
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\obj\Debug\Perfume.csproj.CoreCompileInputs.cache
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\obj\Debug\Perfume.csproj.CopyComplete
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\obj\Debug\Perfume.dll
+D:\lap trinh web\DOAN\DOAN_LTW\DOAN\Perfume\obj\Debug\Perfume.pdb
+E:\DOAN\DOAN_LTW\DOAN\Perfume\obj\Debug\Perfume.csproj.AssemblyReference.cache
+E:\DOAN\DOAN_LTW\DOAN\Perfume\obj\Debug\Perfume.csproj.CoreCompileInputs.cache
+E:\DOAN\DOAN_LTW\DOAN\Perfume\obj\Debug\Perfume.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\obj\Debug\Perfume.pdb
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\Perfume.dll.config
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\Perfume.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\Perfume.pdb
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\csc.exe
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\csc.exe.config
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\csc.rsp
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\csi.exe
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\csi.exe.config
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\csi.rsp
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.Managed.Core.targets
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.AppContext.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Collections.Immutable.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Console.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Globalization.Calendars.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.IO.Compression.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.IO.FileSystem.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Net.Http.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Net.Sockets.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Reflection.Metadata.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.ValueTuple.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Xml.XmlDocument.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Xml.XPath.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\vbc.exe
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\vbc.exe.config
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\vbc.rsp
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\VBCSCompiler.exe
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\VBCSCompiler.exe.config
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\EntityFramework.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\EntityFramework.SqlServer.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\Microsoft.Web.Infrastructure.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Helpers.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Mvc.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Razor.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Webpages.Deployment.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Webpages.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Webpages.Razor.dll
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\EntityFramework.xml
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\EntityFramework.SqlServer.xml
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Razor.xml
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Webpages.xml
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Webpages.Deployment.xml
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Webpages.Razor.xml
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Helpers.xml
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Mvc.xml
+E:\DOAN\DOAN_LTW\DOAN\Perfume\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\DOAN\DOAN_LTW\DOAN\Perfume\obj\Debug\Perfume.csproj.CopyComplete
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\Perfume.dll.config
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\Perfume.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\Perfume.pdb
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\csc.exe
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\csc.exe.config
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\csc.rsp
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\csi.exe
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\csi.exe.config
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\csi.rsp
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.Managed.Core.targets
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.AppContext.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Collections.Immutable.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Console.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Globalization.Calendars.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.IO.Compression.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.IO.FileSystem.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Net.Http.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Net.Sockets.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Reflection.Metadata.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.ValueTuple.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Xml.XmlDocument.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Xml.XPath.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\vbc.exe
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\vbc.exe.config
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\vbc.rsp
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\VBCSCompiler.exe
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\roslyn\VBCSCompiler.exe.config
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\EntityFramework.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\EntityFramework.SqlServer.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\Microsoft.Web.Infrastructure.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Helpers.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Mvc.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Razor.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Webpages.Deployment.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Webpages.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Webpages.Razor.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\EntityFramework.xml
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\EntityFramework.SqlServer.xml
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Razor.xml
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Webpages.xml
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Webpages.Deployment.xml
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Webpages.Razor.xml
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Helpers.xml
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\System.Web.Mvc.xml
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\obj\Debug\Perfume.csproj.AssemblyReference.cache
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\obj\Debug\Perfume.csproj.CoreCompileInputs.cache
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\obj\Debug\Perfume.dll
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\obj\Debug\Perfume.pdb
+D:\LapTrinhWEB\DOAN\DOAN_LTW\DOAN\Perfume\obj\Debug\Perfume.csproj.Up2Date

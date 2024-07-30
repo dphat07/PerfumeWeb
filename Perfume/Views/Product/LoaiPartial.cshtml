@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Perfume.Models.Loai>
+    @{
+        var loais = (List<int>)ViewData["listLoaiChon"]; // Cast the list
+    }
+    <ul class="category-list ul" soluong="@Model.ToList().Count">
+        @foreach (var item in Model)
+        {
+            <li class="category-list-item">
+                <a href="/Product/FilterProduct?name=LO&i=@item.id" style="display: flex; text-decoration: none;">
+                    @{ int count = 0; }
+                    @foreach (var i in loais)
+                    {
+                        if (i == @item.id)
+                        {
+                            <input type="checkbox" name="" id="" class="category-list-item-checkbox" checked onclick="handleOnclickCheckboxLo(@item.id)">
+                            count++;
+                            break;
+                        }
+                    }
+                    @if (count == 0)
+                    {
+                        <input type="checkbox" name="" id="" class="category-list-item-checkbox" onclick="handleOnclickCheckboxLo(@item.id)">
+                    }
+                    <span class="category-list-item-info">@item.Tenloai</span>
+                </a>
+            </li>
+        }
+        @*<li class="category-list-item">
+                <input type="checkbox" name="" id="" class="category-list-item-checkbox">
+                <span class="category-list-item-info">Nước Hoa Nam</span>
+            </li>
+            <li class="category-list-item">
+                <input type="checkbox" name="" id="" class="category-list-item-checkbox">
+                <span class="category-list-item-info">Nước Hoa Nữ</span>
+            </li>
+            <li class="category-list-item">
+                <input type="checkbox" name="" id="" class="category-list-item-checkbox">
+                <span class="category-list-item-info">Nước hoa Mini</span>
+            </li>
+            <li class="category-list-item">
+                <input type="checkbox" name="" id="" class="category-list-item-checkbox">
+                <span class="category-list-item-info">Nước Hoa Chiếc</span>
+            </li>*@
+    </ul>
+
+    <script type="text/javascript">
+        function handleOnclickCheckboxLo(id) {
+            window.location.href = 'FilterProduct?name=LO&i=' + id;
+        }
+    </script>

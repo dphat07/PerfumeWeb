@@ -1,0 +1,122 @@
+﻿<head>
+    <link rel="stylesheet" href="~/assets/css/cart.css">
+</head>
+@{
+    ViewBag.Title = "Cart";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="container__body">
+    <div class="small-container cart">
+        <h1 class="cart-h1">Giỏ hàng</h1>
+        <table class="cart-table">
+            <tr>
+                <th class="cart-table-th">Sản Phẩm</th>
+                <th class="cart-table-th cart-table-th-padding-left">Số Lượng</th>
+                <th class="cart-table-th">Tổng tiền</th>
+            </tr>
+            <tr class="cart-table-tr">
+                <td class="cart-table-td">
+                    <input type="checkbox" class="cart-info-input">
+                    <div class="cart-info">
+                        <img src="assets/img/gio hang 1.jpg" alt="" class="cart-info-img">
+                        <div>
+                            <a href="./detail.html" class="cart-link"><p class="cart-info-name">Nước Hoa Mini Versace Pour Homme 5ml</p></a>
+                            <div class="cart-info-price">
+                                <div class="cart-info-price-new">
+                                    149,000₫
+                                </div>
+                                <div class="cart-info-price-old">
+                                    550,000₫
+                                </div>
+                            </div>
+                            <p class="cart-info-capacity">5ml</p>
+                            <br>
+                            <a href="" class="cart-info-remove">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td class="cart-table-td cart-table-td-center">
+                    <div class="quantity">
+                        <button class="decrease3 button" id="decrease3">-</button>
+                        <input type="text" value="2" id="number3">
+                        <button class="increase3 button" id="increase3">+</button>
+                    </div>
+                </td>
+                <td class="cart-table-td">298,000₫</td>
+            </tr>
+            <tr class="cart-table-tr">
+                <td class="cart-table-td">
+                    <input type="checkbox" class="cart-info-input">
+                    <div class="cart-info">
+                        <img src="//product.hstatic.net/1000391653/product/c-hoa-calvin-klein-euphoria-for-women_1d2f5181645545089b2bb9cb036082bb_28eed5e1b1064e308625a5a74db9982e_large.jpg" alt="" class="cart-info-img">
+                        <div>
+                            <a href="./detail.html" class="cart-link"><p class="cart-info-name">Nước Hoa Calvin Klein Euphoria For Women EDP 100ml</p></a>
+                            <div class="cart-info-price">
+                                <div class="cart-info-price-new">
+                                    1,450,000₫
+                                </div>
+                                <div class="cart-info-price-old">
+                                    3,560,000₫
+                                </div>
+                            </div>
+                            <p class="cart-info-capacity">100ml</p>
+                            <br>
+                            <a href="" class="cart-info-remove">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td class="cart-table-td cart-table-td-center">
+                    <div class="quantity">
+                        <button class="decrease2 button" id="decrease2">-</button>
+                        <input type="text" value="1" id="number2">
+                        <button class="increase2 button" id="increase2">+</button>
+                    </div>
+                </td>
+                <td class="cart-table-td">1,450,000₫</td>
+            </tr>
+            <tr class="cart-table-tr">
+                <td class="cart-table-td">
+                    <input type="checkbox" class="cart-info-input">
+                    <div class="cart-info">
+                        <img src="//product.hstatic.net/1000391653/product/75t-calvin-klein-man-edt-100ml-tester_fbd74d52d9994df688048ee83939599d_35e7c2c9bc4d49e598a5a9b2dc83f74f_large.jpg" alt="" class="cart-info-img">
+                        <div>
+                            <a href="./detail.html" class="cart-link"><p class="cart-info-name">Nước Hoa Calvin Klein Man EDT 100ml</p></a>
+                            <div class="cart-info-price">
+                                <div class="cart-info-price-new">
+                                    1,150,000₫
+                                </div>
+                                <div class="cart-info-price-old">
+                                    2,940,000₫
+                                </div>
+                            </div>
+                            <p class="cart-info-capacity">100ml</p>
+                            <br>
+                            <a href="" class="cart-info-remove">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td class="cart-table-td cart-table-td-center">
+                    <div class="quantity">
+                        <button class="decrease button" id="decrease">-</button>
+                        <input type="text" value="3" id="number">
+                        <button class="increase button" id="increase">+</button>
+                    </div>
+                </td>
+                <td class="cart-table-td">3,450,000₫</td>
+            </tr>
+        </table>
+        <div class="cart-total">
+            <table class="cart-total-table">
+                <tr>
+                    <td class="cart-total-table-td">Tổng tiền</td>
+                    <td class="cart-total-table-td">5,198,000₫</td>
+                </tr>
+            </table>
+        </div>
+        <div class="cart-btn-pay">
+            <button class="cart-btn-button">Tiến hành thanh toán</button>
+        </div>
+    </div>
+</div>
+

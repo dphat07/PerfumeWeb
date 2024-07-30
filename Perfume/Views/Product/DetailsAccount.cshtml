@@ -1,0 +1,52 @@
+﻿@model Perfume.Models.TaiKhoan
+
+@{
+    ViewBag.Title = "DetailsAccount";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>DetailsAccount</h2>
+
+<div>
+    <h4>TaiKhoan</h4>
+    <hr />
+    <dl class="dl-horizontal">
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tentaikhoan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tentaikhoan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dienThoai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dienThoai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.diaChi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.diaChi)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "EditsAccount", new { id = Model.idTaiKhoan }) 
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,63 @@
+﻿@model Perfume.Models.TaiKhoan
+<head>
+    <link rel="stylesheet" href="~/assets/css/register.css">
+</head>
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+@using (Html.BeginForm("Register", "Account", FormMethod.Post))
+{
+    <div class="Main">
+        <div class="login">
+            <h2 class="login-heading">Đăng ký tài khoản</h2>
+            <div class="login-user">
+                <span class="login-user-account">
+                    Tên đăng nhập
+                </span>
+                @Html.TextBoxFor(temp => temp.tentaikhoan, new { @class = "login-user-input", placeholder = "Tên đăng nhập" })
+                @Html.ValidationMessageFor(temp => temp.tentaikhoan)
+                <p>@ViewBag.thongbao</p>
+                @*<input class="login-user-input" type="text" name="" id="" placeholder="Email">*@
+                <div class="login-user">
+                    <span class="login-user-account">Mật Khẩu</span>
+                    @Html.PasswordFor(temp => temp.matkhau, new { @class = "login-user-input", placeholder = "Mật Khẩu" })
+                    @Html.ValidationMessageFor(temp => temp.matkhau)
+                    @*<input class="login-user-input" type="password" name="" id="" placeholder="Mật Khẩu">*@
+                </div>
+                <div class="login-user">
+                    <span class="login-user-account">Xác nhận mật khẩu</span>
+                    @Html.PasswordFor(temp => temp.xacnhanmatkhau, new { @class = "login-user-input", placeholder = "Xác nhận mật khẩu" })
+                    @Html.ValidationMessageFor(temp => temp.xacnhanmatkhau)
+                    @*<input style="margin-bottom: 15px;" class="login-user-input" type="password" name="" id="" placeholder="Xác nhận mật khẩu">*@
+                </div>
+                <div class="login-user">
+                    <span class="login-user-account">Email</span>
+                    @Html.TextBoxFor(temp => temp.email, new { @class = "login-user-input", placeholder = "Email" })
+                    @Html.ValidationMessageFor(temp => temp.email)
+                    @*<input style="margin-bottom: 15px;" class="login-user-input" type="password" name="" id="" placeholder="Email">*@
+                </div>
+                <div class="login-user">
+                    <span class="login-user-account">Số điện thoại</span>
+                    @Html.TextBoxFor(temp => temp.dienThoai, new { @class = "login-user-input", placeholder = "Số điện thoại" })
+                    @Html.ValidationMessageFor(temp => temp.dienThoai)
+                    @*<input style="margin-bottom: 15px;" class="login-user-input" type="password" name="" id="" placeholder="Số điện thoại">*@
+                </div>
+                <div class="login-user">
+                    <span class="login-user-account">Địa chỉ</span>
+                    @Html.TextBoxFor(temp => temp.diaChi, new { @class = "login-user-input", placeholder = "Địa chỉ" })
+                    @Html.ValidationMessageFor(temp => temp.diaChi)
+                    @*<input style="margin-bottom: 15px;" class="login-user-input" type="password" name="" id="" placeholder="Địa chỉ">*@
+                </div>
+            </div>
+            <div class="login-submit">
+                <button class="login-login" type="submit">Đăng ký</button>
+                @*<input class="login-login" type="submit" value="Đăng ký">*@
+            </div>
+            <div class="login-answer">
+                <p>Bạn đã có tài khoản? <a href="./login.html">Đăng nhập</a></p>
+            </div>
+        </div>
+
+    </div>
+}

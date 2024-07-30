@@ -1,0 +1,71 @@
+﻿@{
+    var gias = (List<int>)ViewData["listGiaChon"]; // Cast the list
+    var loais = (List<int>)ViewData["listLoaiChon"]; // Cast the list
+    var thuongHieus = (List<int>)ViewData["listThuongHieuChon"]; // Cast the list
+    var dataLoais = (List<Perfume.Models.Loai>)ViewData["DataLoai"]; // Cast the list
+    var dataThuongHieus = (List<Perfume.Models.thuongHieu>)ViewData["DataThuongHieu"]; // Cast the list
+}
+@foreach (var i in loais)
+{
+    foreach (var item in dataLoais)
+    {
+        if (i == item.id)
+        {
+            <a href="~/Product/chonDetails?name=LO&i=@item.id">
+                <h2 class="home__filter-scrollmenu-item">@item.Tenloai</h2>
+            </a>
+        }
+    }
+}
+@foreach (var i in gias)
+{
+    if (i == 1)
+    {
+        <a href="~/Product/chonDetails?name=GI&i=1">
+            <h2 class="home__filter-scrollmenu-item">Giá dưới 100.000đ</h2>
+        </a>
+    }
+    else if (i == 2)
+    {
+        <a href="~/Product/chonDetails?name=GI&i=2">
+            <h2 class="home__filter-scrollmenu-item">100.000đ - 200.000đ</h2>
+        </a>
+    }
+    else if (i == 3)
+    {
+        <a href="~/Product/chonDetails?name=GI&i=3">
+            <h2 class="home__filter-scrollmenu-item">200.000đ - 300.000đ</h2>
+        </a>
+    }
+    else if (i == 4)
+    {
+        <a href="~/Product/chonDetails?name=GI&i=4">
+            <h2 class="home__filter-scrollmenu-item">300.000đ - 500.000đ</h2>
+        </a>
+    }
+    else if (i == 5)
+    {
+        <a href="~/Product/chonDetails?name=GI&i=5">
+            <h2 class="home__filter-scrollmenu-item">500.000đ - 1.000.000đ</h2>
+        </a>
+    }
+    else
+    {
+        <a href="~/Product/chonDetails?name=GI&i=6">
+            <h2 class="home__filter-scrollmenu-item">Giá trên 1.000.000đ</h2>
+        </a>
+    }
+}
+
+@foreach (var i in thuongHieus)
+{
+    foreach (var item in dataThuongHieus)
+    {
+        if (i == item.id)
+        {
+            <a href="~/Product/chonDetails?name=TH&i=@item.id">
+                <h2 class="home__filter-scrollmenu-item">@item.tenThuongHieu</h2>
+            </a>
+        }
+    }
+}

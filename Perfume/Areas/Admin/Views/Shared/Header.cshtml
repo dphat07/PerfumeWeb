@@ -1,0 +1,339 @@
+﻿<header class="header">
+    <div class="grid grid-height">
+        <div class="header-with-search">
+            <div class="header__logo">
+                <a class="header__logo-link" href="./index.html"><img class="header__logo-img" src="~/assets/img/logo vstyle.png" alt="logo Vstyle.vn"></a>
+            </div>
+            <div class="header__search">
+                <div class="header__search-input-wrap">
+                    <input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm...">
+                    <div class="header__search-history">
+                        <h3 class="header__search-history-h3">Lịch sử tìm kiếm</h3>
+                        <ul class="header__search-history-list">
+                            <li class="header__search-history-item">
+                                <a href="">Nước hoa nam</a>
+                            </li>
+                            <li class="header__search-history-item">
+                                <a href="">Nước hoa nữ</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <button class="header__search-btn">
+                    <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            <div class="header__user header__user-none">
+                <img class="header__user-icon" src="//theme.hstatic.net/1000391653/1000983112/14/phone.png?v=639" data-src="//theme.hstatic.net/1000391653/1000983112/14/phone.png?v=639" width="28" alt="phone" data-was-processed="true">
+                <span>
+                    <div class="header__user-login header__user-login-support">
+                        <a class="header__user-login-link">Hỗ trợ khách hàng</a>
+                    </div>
+                    <div class="header__user-register">
+                        <a class="header__user-register-link header__user-register-hotline"><b>19086221</b></a>
+                    </div>
+                </span>
+
+            </div>
+            <div class="header__user header__user-none">
+                <a href="./login.html"><img class="header__user-icon" src="//theme.hstatic.net/1000391653/1000983112/14/account.png?v=618" data-src="//theme.hstatic.net/1000391653/1000983112/14/account.png?v=618" width="28" alt="phone" fill="#fff"></a>
+                <span>
+                    @{
+                        var user = Perfume.App_Start.SessionConfig.GetUser();
+
+                    }
+                    @if (user != null)
+                    {
+                        <div class="header__user-login">
+                            <a href="./login.html" class="header__user-login-link">@user.tentaikhoan</a>
+                        </div>
+                        <div class="header__user-register">
+                            <a href="~/Account/Logout" class="header__user-register-link">Đăng xuất</a>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="header__user-login">
+                            <a href="@Url.Action("Login","Account")" class="header__user-login-link">Đăng nhập</a>
+                        </div>
+                        <div class="header__user-register">
+                            <a href="@Url.Action("Register","Account")" class="header__user-register-link">Đăng ký</a>
+                        </div>
+                    }
+
+                </span>
+
+            </div>
+
+
+            <div class="header__cart header__user-none">
+                <div class="header__cart-link">
+                    <a href="./cart.html">
+                        <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <span class="header__cart-notice">
+                        3
+                    </span>
+                    <!-- header__cart-list-no-cart -->
+                    <div class="header__cart-list">
+                        <img src="assets/img/no-cart.png" alt="" class="header__cart-no-cart-img">
+                        <span class="header__cart-list-no-cart-msg">
+                            Chưa có sản phẩm
+                        </span>
+                        <h4 class="header__cart-h4">Sản phẩm đã thêm</h4>
+                        <ul class="header__cart-list-item">
+                            <a href="./cart.html" class="header__cart-list-item-link">
+                            <li class="header__cart-item">
+                                <img src="~/assets/img/gio hang 1.jpg" alt="" class="header__cart-img">
+                                <div class="header__cart-item-info">
+                                    <div class="header__cart-item-head">
+                                        <h5 class="header__cart-item-name">
+                                            Nước Hoa Mini Versace Pour Homme 5ml
+                                        </h5>
+                                        <div class="header__cart-item-body">
+                                            <span class="header__cart-item-description">5ml</span>
+
+                                        </div>
+                                        <div class="header__cart-item-price-wrap">
+                                            <span class="header__cart-item-price">
+                                                139,000đ
+                                            </span>
+                                            <span class="header__cart-item-mutiply">
+                                                x
+                                            </span>
+                                            <span class="header__cart-item-qnt">2</span>
+                                        </div>
+                                        <div class="header__cart-remove">
+                                            <span class="header__cart-item-remove">Xóa</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            </a>
+
+                            <a href="./cart.html" class="header__cart-list-item-link">
+                            <li class="header__cart-item">
+                                <img class="header__cart-img" src="//product.hstatic.net/1000391653/product/c-hoa-calvin-klein-euphoria-for-women_1d2f5181645545089b2bb9cb036082bb_28eed5e1b1064e308625a5a74db9982e_large.jpg" style="--image-scale: 1" data-src="//product.hstatic.net/1000391653/product/c-hoa-calvin-klein-euphoria-for-women_1d2f5181645545089b2bb9cb036082bb_28eed5e1b1064e308625a5a74db9982e_large.jpg" alt="Nước Hoa Calvin Klein Euphoria For Women EDP 100ml" data-was-processed="true">
+                                <div class="header__cart-item-info">
+                                    <div class="header__cart-item-head">
+                                        <h5 class="header__cart-item-name">
+                                            Nước Hoa Calvin Klein Euphoria For Women EDP 100ml
+                                        </h5>
+                                        <div class="header__cart-item-body">
+                                            <span class="header__cart-item-description">100ml</span>
+
+                                        </div>
+                                        <div class="header__cart-item-price-wrap">
+                                            <span class="header__cart-item-price">
+                                                1,450,000₫
+                                            </span>
+                                            <span class="header__cart-item-mutiply">
+                                                x
+                                            </span>
+                                            <span class="header__cart-item-qnt">1</span>
+                                        </div>
+                                        <div class="header__cart-remove">
+                                            <span class="header__cart-item-remove">Xóa</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            </a>
+                            <a href="./cart.html" class="header__cart-list-item-link">
+                            <li class="header__cart-item">
+                                <img class="header__cart-img" src="//product.hstatic.net/1000391653/product/75t-calvin-klein-man-edt-100ml-tester_fbd74d52d9994df688048ee83939599d_35e7c2c9bc4d49e598a5a9b2dc83f74f_large.jpg" style="--image-scale: 0.8" data-src="//product.hstatic.net/1000391653/product/75t-calvin-klein-man-edt-100ml-tester_fbd74d52d9994df688048ee83939599d_35e7c2c9bc4d49e598a5a9b2dc83f74f_large.jpg" alt="Nước Hoa Calvin Klein Man EDT 100ml" data-was-processed="true">
+                                <div class="header__cart-item-info">
+                                    <div class="header__cart-item-head">
+                                        <h5 class="header__cart-item-name">
+                                            Nước Hoa Calvin Klein Man EDT 100ml
+                                        </h5>
+                                        <div class="header__cart-item-body">
+                                            <span class="header__cart-item-description">100ml</span>
+
+                                        </div>
+                                        <div class="header__cart-item-price-wrap">
+                                            <span class="header__cart-item-price">
+                                                1,340,000₫
+                                            </span>
+                                            <span class="header__cart-item-mutiply">
+                                                x
+                                            </span>
+                                            <span class="header__cart-item-qnt">3</span>
+                                        </div>
+                                        <div class="header__cart-remove">
+                                            <span class="header__cart-item-remove">Xóa</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            </a>
+                        </ul>
+                        <a href="./cart.html">
+                            <button class="header__cart-view btn2 ">Xem giỏ hàng</button>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="header__with-990">
+            <div class="header__search header__search-990">
+                <div class="header__search-input-wrap">
+                    <input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm...">
+                    <div class="header__search-history">
+                        <h3 class="header__search-history-h3">Lịch sử tìm kiếm</h3>
+                        <ul class="header__search-history-list">
+                            <li class="header__search-history-item">
+                                <a href="">Nước hoa nam</a>
+                            </li>
+                            <li class="header__search-history-item">
+                                <a href="">Nước hoa nữ</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <button class="header__search-btn">
+                    <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                </button>
+
+            </div>
+            <div class="header__user header__user-none">
+                <img class="header__user-icon" src="//theme.hstatic.net/1000391653/1000983112/14/phone.png?v=639" data-src="//theme.hstatic.net/1000391653/1000983112/14/phone.png?v=639" width="28" alt="phone" data-was-processed="true">
+                <span>
+                    <div class="header__user-login header__user-login-support">
+                        <a class="header__user-login-link">Hỗ trợ khách hàng</a>
+                    </div>
+                    <div class="header__user-register">
+                        <a class="header__user-register-link header__user-register-hotline"><b>19086221</b></a>
+                    </div>
+                </span>
+
+            </div>
+            <div class="header__user">
+                <a href="./login.html"> <img class="header__user-icon" src="//theme.hstatic.net/1000391653/1000983112/14/account.png?v=618" data-src="//theme.hstatic.net/1000391653/1000983112/14/account.png?v=618" width="28" alt="phone" fill="#fff"></a>
+                <span>
+                    <div class="header__user-login">
+                        <a href="./login.html" class="header__user-login-link header__user-none">Đăng nhập</a>
+                    </div>
+                    <div class="header__user-register">
+                        <a href="./register.html" class="header__user-register-link header__user-none">Đăng ký</a>
+                    </div>
+                </span>
+
+            </div>
+
+
+            <div class="header__cart">
+                <div class="header__cart-link">
+                    <a href="./cart.html">
+                        <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <span class="header__cart-notice">
+                        3
+                    </span>
+                    <!-- header__cart-list-no-cart -->
+                    <div class="header__cart-list">
+                        <img src="assets/img/no-cart.png" alt="" class="header__cart-no-cart-img">
+                        <span class="header__cart-list-no-cart-msg">
+                            Chưa có sản phẩm
+                        </span>
+                        <h4 class="header__cart-h4">Sản phẩm đã thêm</h4>
+                        <ul class="header__cart-list-item">
+                            <li class="header__cart-item">
+                                <img src="assets/img/gio hang 1.jpg" alt="" class="header__cart-img">
+                                <div class="header__cart-item-info">
+                                    <div class="header__cart-item-head">
+                                        <h5 class="header__cart-item-name">
+                                            Nước Hoa Mini Versace Pour Homme 5ml
+                                        </h5>
+                                        <div class="header__cart-item-body">
+                                            <span class="header__cart-item-description">5ml</span>
+
+                                        </div>
+                                        <div class="header__cart-item-price-wrap">
+                                            <span class="header__cart-item-price">
+                                                139,000đ
+                                            </span>
+                                            <span class="header__cart-item-mutiply">
+                                                x
+                                            </span>
+                                            <span class="header__cart-item-qnt">2</span>
+                                        </div>
+                                        <div class="header__cart-remove">
+                                            <span class="header__cart-item-remove">Xóa</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="header__cart-item">
+                                <img class="header__cart-img" src="//product.hstatic.net/1000391653/product/c-hoa-calvin-klein-euphoria-for-women_1d2f5181645545089b2bb9cb036082bb_28eed5e1b1064e308625a5a74db9982e_large.jpg" style="--image-scale: 1" data-src="//product.hstatic.net/1000391653/product/c-hoa-calvin-klein-euphoria-for-women_1d2f5181645545089b2bb9cb036082bb_28eed5e1b1064e308625a5a74db9982e_large.jpg" alt="Nước Hoa Calvin Klein Euphoria For Women EDP 100ml" data-was-processed="true">
+                                <div class="header__cart-item-info">
+                                    <div class="header__cart-item-head">
+                                        <h5 class="header__cart-item-name">
+                                            Nước Hoa Calvin Klein Euphoria For Women EDP 100ml
+                                        </h5>
+                                        <div class="header__cart-item-body">
+                                            <span class="header__cart-item-description">100ml</span>
+
+                                        </div>
+                                        <div class="header__cart-item-price-wrap">
+                                            <span class="header__cart-item-price">
+                                                1,450,000₫
+                                            </span>
+                                            <span class="header__cart-item-mutiply">
+                                                x
+                                            </span>
+                                            <span class="header__cart-item-qnt">1</span>
+                                        </div>
+                                        <div class="header__cart-remove">
+                                            <span class="header__cart-item-remove">Xóa</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="header__cart-item">
+                                <img class="header__cart-img" src="//product.hstatic.net/1000391653/product/75t-calvin-klein-man-edt-100ml-tester_fbd74d52d9994df688048ee83939599d_35e7c2c9bc4d49e598a5a9b2dc83f74f_large.jpg" style="--image-scale: 0.8" data-src="//product.hstatic.net/1000391653/product/75t-calvin-klein-man-edt-100ml-tester_fbd74d52d9994df688048ee83939599d_35e7c2c9bc4d49e598a5a9b2dc83f74f_large.jpg" alt="Nước Hoa Calvin Klein Man EDT 100ml" data-was-processed="true">
+                                <div class="header__cart-item-info">
+                                    <div class="header__cart-item-head">
+                                        <h5 class="header__cart-item-name">
+                                            Nước Hoa Calvin Klein Man EDT 100ml
+                                        </h5>
+                                        <div class="header__cart-item-body">
+                                            <span class="header__cart-item-description">100ml</span>
+
+                                        </div>
+                                        <div class="header__cart-item-price-wrap">
+                                            <span class="header__cart-item-price">
+                                                1,340,000₫
+                                            </span>
+                                            <span class="header__cart-item-mutiply">
+                                                x
+                                            </span>
+                                            <span class="header__cart-item-qnt">3</span>
+                                        </div>
+                                        <div class="header__cart-remove">
+                                            <span class="header__cart-item-remove">Xóa</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                        </ul>
+                        <button class="header__cart-view btn2">Xem giỏ hàng</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+</header>

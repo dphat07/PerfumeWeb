@@ -1,0 +1,267 @@
+﻿
+@{
+    ViewBag.Title = "Product";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+<div class="container__body">
+    <div class="grid">
+        <div class="grid__row container__margin">
+            <div class="grid__column-2">
+                <nav class="category__body">
+                    <h3 class="category-heading">
+                        THƯƠNG HIỆU
+                    </h3>
+                    @Html.Action("ThuongHieuPartial", "Product")
+                    <h3 class="category-heading category-heading-strikethrough">
+                        MỨC GIÁ
+                    </h3>
+                    @Html.Action("GiaPartial", "Product")
+                    <h3 class="category-heading category-heading-strikethrough">
+                        LOẠI
+                    </h3>
+                    @Html.Action("LoaiPartial", "Product")
+                    <h3 class="category-heading category-heading-deal">
+                        DEAL Bom tấn
+                    </h3>
+                    <ul class="header__cart-list-item2">
+                        <a href="~/Details/Details" class="header__cart-list-item2-link">
+                        <li class="header__cart-item2">
+                            <img class="header__cart-img2" src="//product.hstatic.net/1000391653/product/026nuoc-hoa-mini-versace-eros-edt-5ml_a9b2a7c02b3f400b9ee883ea05a6d145_2708db0701b845b4b8bef13557224a75_large.jpg" style="--image-scale: 0.8" data-src="//product.hstatic.net/1000391653/product/026nuoc-hoa-mini-versace-eros-edt-5ml_a9b2a7c02b3f400b9ee883ea05a6d145_2708db0701b845b4b8bef13557224a75_large.jpg" alt="Nước Hoa Mini Versace Eros EDT 5ml">
+                            <div class="header__cart-item-info2">
+                                <div class="header__cart-item-info-style">
+                                    Nước Hoa Mini
+                                </div>
+                                <div>
+                                    <div style="color: black;"><i>HSD trên 16 tháng</i></div>
+                                </div>
+                                <div class="header__cart-item-head2">
+                                    <h5 class="header__cart-item-name2">
+                                        Nước Hoa Mini Versace Eros EDT 5ml
+                                    </h5>
+                                    <div class="home__product-item-price deal">
+                                        <span class="home__product-item-price-current deal-current">139,000₫</span>
+                                        <span class="home__product-item-price-old deal-old">550,000₫</span>
+                                    </div>
+
+                                </div>
+                                <div class="deal-sale">
+                                    <span class="deal-sale-percent">- 75%</span>
+                                </div>
+
+                            </div>
+                        </li>
+                        </a>
+                    </ul>
+                    <ul class="header__cart-list-item2">
+                        <a href="~/Details/Details" class="header__cart-list-item2-link">
+                        <li class="header__cart-item2">
+                            <img class="header__cart-img2" src="//product.hstatic.net/1000391653/product/3-versace-eros-edt-versace-pour-homme_c458285e0ac9423284a24bb884aba842_11bd1bc462894e8eb937ec395bde13fe_large.jpg" style="--image-scale: 1" data-src="//product.hstatic.net/1000391653/product/3-versace-eros-edt-versace-pour-homme_c458285e0ac9423284a24bb884aba842_11bd1bc462894e8eb937ec395bde13fe_large.jpg" alt="Combo Nước Hoa Mini Versace Eros EDT 5ml -Versace Pour Homme 5ml" data-was-processed="true">
+                            <div class="header__cart-item-info2">
+                                <div class="header__cart-item-info-style">
+                                    Nước Hoa Mini
+                                </div>
+                                <div>
+                                    <div style="color: black;"><i>HSD trên 16 tháng</i></div>
+                                </div>
+                                <div class="header__cart-item-head2">
+                                    <h5 class="header__cart-item-name2">
+                                        Combo Nước Hoa Mini Versace Eros EDT 5ml -Versace Pour Homme 5ml
+                                    </h5>
+                                    <div class="home__product-item-price deal">
+                                        <span class="home__product-item-price-current deal-current">310,000₫</span>
+                                        <span class="home__product-item-price-old deal-old">1,100,000₫</span>
+                                    </div>
+
+                                </div>
+                                <div class="deal-sale">
+                                    <span class="deal-sale-percent">- 72%</span>
+                                </div>
+
+                            </div>
+                        </li>
+                        </a>
+                    </ul>
+                    <ul class="header__cart-list-item2">
+                        <a href="~/Details/Details" class="header__cart-list-item2-link">
+                        <li class="header__cart-item2">
+                            <img class="header__cart-img2" src="//product.hstatic.net/1000391653/product/-mini-versace-eros-pour-femme-edt-5ml_49f272d40f8b42c58eff1c76e0df4c50_5f0cd59969e1437994e939b920c9306f_large.jpg" style="--image-scale: 1" data-src="//product.hstatic.net/1000391653/product/-mini-versace-eros-pour-femme-edt-5ml_49f272d40f8b42c58eff1c76e0df4c50_5f0cd59969e1437994e939b920c9306f_large.jpg" alt="Nước Hoa mini Versace Eros Pour Femme EDP 5ml" data-was-processed="true">
+                            <div class="header__cart-item-info2">
+                                <div class="header__cart-item-info-style">
+                                    SU:M 37
+                                </div>
+                                <div>
+                                    <div style="color: black;"><i>HSD trên 16 tháng</i></div>
+                                </div>
+                                <div class="header__cart-item-head2">
+                                    <h5 class="header__cart-item-name2">
+                                        Nước Hoa Mini Versace Eros Pour Femme EDP 5ml
+                                    </h5>
+                                    <div class="home__product-item-price deal">
+                                        <span class="home__product-item-price-current deal-current">160,000₫</span>
+                                        <span class="home__product-item-price-old deal-old">550,000₫</span>
+                                    </div>
+
+                                </div>
+                                <div class="deal-sale">
+                                    <span class="deal-sale-percent">- 71%</span>
+                                </div>
+
+                            </div>
+                        </li>
+                        </a>
+                    </ul>
+                    <ul class="header__cart-list-item2">
+                        <a href="~/Details/Details" class="header__cart-list-item2-link">
+                        <li class="header__cart-item2">
+                            <img class="header__cart-img2" src="//product.hstatic.net/1000391653/product/nhm026-nhm014_b554f1f3b6c645218b2d5ffc20d2a19f_8cceeeb664c6411eaadc95158a1016c3_large.jpg" style="--image-scale: 1" data-src="//product.hstatic.net/1000391653/product/nhm026-nhm014_b554f1f3b6c645218b2d5ffc20d2a19f_8cceeeb664c6411eaadc95158a1016c3_large.jpg" alt="Combo Nước Hoa Mini Versace Eros Edt 5ml - Versace Bright Crystal Edt 5ml">
+                            <div class="header__cart-item-info2">
+                                <div class="header__cart-item-info-style">
+                                    Nước Hoa Mini
+                                </div>
+                                <div>
+                                    <div style="color: black;"><i>HSD trên 16 tháng</i></div>
+                                </div>
+                                <div class="header__cart-item-head2">
+                                    <h5 class="header__cart-item-name2">
+                                        Combo Nước Hoa Mini Versace Eros Edt 5ml - Versace Bright Crystal Edt 5ml
+                                    </h5>
+                                    <div class="home__product-item-price deal">
+                                        <span class="home__product-item-price-current deal-current">360,000₫</span>
+                                        <span class="home__product-item-price-old deal-old">1,100,000₫</span>
+                                    </div>
+
+                                </div>
+                                <div class="deal-sale">
+                                    <span class="deal-sale-percent">- 66%</span>
+                                </div>
+
+                            </div>
+                        </li>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="grid__column-10">
+                <div class="home__filter">
+                    <div class="home__filter-boder">
+                        <span class="home__filter-label-first">Sắp xếp theo:</span>
+                        <a href="~/Product/SapXep?stt=1">
+                            <span class="home__filter-label">Tên A → Z</span>
+                        </a>
+                        <a href="~/Product/SapXep?stt=2">
+                            <span class="home__filter-label">Tên Z → A</span>
+                        </a>
+                        <a href="~/Product/SapXep?stt=3">
+                            <span class="home__filter-label">Giá tăng dần</span>
+                        </a>
+                        <a href="~/Product/SapXep?stt=4">
+                            <span class="home__filter-label">Giá giảm dần</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="home__filter-990">
+                    <div class="home__filter-boder-990">
+                        <span class="home__filter-990-label-first">Sắp xếp theo: &nbsp;</span>
+                        <select name="" id="" class="home__filter-990-select">
+                            <option selected disabled>Thứ tự</option>
+                            <a href="~/Product/SapXep?stt=1">
+                            <option value="1" class="home__filter-990-option">Tên A → Z</option>
+                            </a>
+                            <a href="~/Product/SapXep?stt=2">
+                            <option value="1" class="home__filter-990-option">Tên Z → A</option>
+                            </a>
+                            <a href="~/Product/SapXep?stt=3">
+                            <option value="1" class="home__filter-990-option">Giá tăng dần</option>
+                            </a>
+                            <a href="~/Product/SapXep?stt=4">
+                            <option value="1" class="home__filter-990-option">Giá giảm dần</option>
+                            </a>
+                        </select>
+                    </div>
+                </div>
+                <div class="home__filter-scrollmenu">
+                    @Html.Action("listChonPartial", "Product")
+                </div>
+                <div class="home__product">
+                    <div class="grid__row">
+                        @foreach (var item in Model)
+                        {
+                            <div class="grid__column-2-4">
+                                <a href="~/Details/Details" class="home__product-item">
+                                    <div class="home__product-item-link">
+                                        <img class="home__product-item-img" src="//product.hstatic.net/1000391653/product/026nuoc-hoa-mini-versace-eros-edt-5ml_a9b2a7c02b3f400b9ee883ea05a6d145_2708db0701b845b4b8bef13557224a75_large.jpg" style="--image-scale: 0.8" data-src="//product.hstatic.net/1000391653/product/026nuoc-hoa-mini-versace-eros-edt-5ml_a9b2a7c02b3f400b9ee883ea05a6d145_2708db0701b845b4b8bef13557224a75_large.jpg" alt="Nước Hoa Mini Versace Eros EDT 5ml">
+                                        <span class="home__product-item-icon">
+                                            <i title="Thêm vào giỏ hàng" class="home__product-item-icon-cart fas fa-cart-plus"></i>
+                                            <i title="Xem nhanh" class="home__product-item-icon-eye far fa-eye"></i>
+                                        </span>
+
+                                    </div>
+                                    <h4 class="home__product-item-heading">
+                                        @item.Loai.Tenloai
+                                    </h4>
+                                    <div class="home__product-item-HSD"><i>HSD trên @item.hanSuDung tháng</i> </div>
+                                    <div class="home__product-item-modify">@item.tenSanPham</div>
+                                    <div class="home__product-item-price">
+                                        <span class="home__product-item-price-current">@item.gia</span>
+                                        <span class="home__product-item-price-old">@item.gia</span>
+                                    </div>
+                                    <div class="home__product-item-action">
+                                        <span class="home__product-item-heart home__product-item-heart-liked">
+                                            <i class="home__product-item-heart-icon-empty far fa-heart"></i>
+                                            <i class="home__product-item-heart-icon-fill fas fa-heart"></i>
+                                        </span>
+                                        <div class="home__product-item-star">
+                                            <i class="home__product-item-star-gold fa-solid fa-star"></i>
+                                            <i class="home__product-item-star-gold fa-solid fa-star"></i>
+                                            <i class="home__product-item-star-gold fa-solid fa-star"></i>
+                                            <i class="home__product-item-star-gold fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <span class="home__product-item-sold">@item.soLuong đã bán</span>
+                                    </div>
+
+                                    <div class="home__product-item__favourite">
+                                        <i class="fa-solid fa-check"></i>
+                                        Yêu thích
+                                    </div>
+                                    <div class="home__product-item-sale">
+                                        <span class="home__product-item-sale-percent">- 71%</span>
+                                    </div>
+                                    <div class="home__product-item-location">
+                                        <span class="home__product-item-location-city">TP. Hồ Chí Minh</span>
+
+                                    </div>
+                                </a>
+                            </div>
+                        }
+                    </div>
+                </div>
+                <ul class="pagination home__product__pagination">
+                    <li class="pagination-item pagination-item-active">
+                        <a href="./DOAN.html" class="pagination-item-link">1</a>
+                    </li>
+                    <li class="pagination-item">
+                        <a href="./DOAN.html" class="pagination-item-link">2</a>
+                    </li>
+                    <li class="pagination-item">
+                        <a href="./DOAN.html" class="pagination-item-link">3</a>
+                    </li>
+                    <li class="pagination-item">
+                        <a href="./DOAN.html" class="pagination-item-link">...</a>
+                    </li>
+                    <li class="pagination-item">
+                        <a href="./DOAN.html" class="pagination-item-link">19</a>
+                    </li>
+                    <li class="pagination-item">
+                        <a href="" class="pagination-item-link">
+                            <i class="pagination-item-icon fas fa-angle-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+

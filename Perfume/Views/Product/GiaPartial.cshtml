@@ -1,0 +1,139 @@
+﻿@{
+    var gias = (List<int>)ViewData["listGiaChon"]; // Cast the list
+}
+<ul class="category-list">
+    <li class="category-list-item">
+        <a href="/Product/FilterProduct?name=GI&i=1" style="display: flex; text-decoration: none;">
+            @{ int count = 0; }
+            @foreach (var i in gias)
+            {
+                if (i == 1)
+                {
+                    <input type="checkbox" name="" id="" class="category-list-item-checkbox input1" checked value="name=GI&i=1">
+                    count++;
+                }
+            }
+            @if (count == 0)
+            {
+                <input type="checkbox" name="" id="" class="category-list-item-checkbox input1" value="name=GI&i=1">
+            }
+            <span class="category-list-item-info">Giá dưới 100.000đ</span>
+        </a>
+    </li>
+    <li class="category-list-item">
+        <a href="/Product/FilterProduct?name=GI&i=2" style="display: flex; text-decoration: none;">
+            @{ int count1 = 0; }
+            @foreach (var i in gias)
+            {
+                if (i == 2)
+                {
+                    <input type="checkbox" name="" id="" class="category-list-item-checkbox input2" checked value="name=GI&i=2">
+                    count1++;
+                }
+            }
+            @if (count1 == 0)
+            {
+                <input type="checkbox" name="" id="" class="category-list-item-checkbox input2" value="name=GI&i=2">
+            }
+            <span class="category-list-item-info">100.000đ - 200.000đ</span>
+        </a>
+    </li>
+    <li class="category-list-item">
+        <a href="/Product/FilterProduct?name=GI&i=3" style="display: flex; text-decoration: none;">
+            @{ int count2 = 0; }
+            @foreach (var i in gias)
+            {
+                if (i == 3)
+                {
+                    <input type="checkbox" name="" id="" class="category-list-item-checkbox input3" checked value="name=GI&i=3">
+                    count2++;
+                }
+            }
+            @if (count2 == 0)
+            {
+                <input type="checkbox" name="" id="" class="category-list-item-checkbox input3" value="name=GI&i=3">
+            }
+            <span class="category-list-item-info">200.000đ - 300.000đ</span>
+        </a>
+    </li>
+    <li class="category-list-item">
+        <a href="/Product/FilterProduct?name=GI&i=4" style="display: flex; text-decoration: none;">
+            @{ int count3 = 0; }
+            @foreach (var i in gias)
+            {
+                if (i == 4)
+                {
+                    <input type="checkbox" name="" id="" class="category-list-item-checkbox input4" checked value="name=GI&i=4">
+                    count3++;
+                }
+            }
+            @if (count3 == 0)
+            {
+                <input type="checkbox" name="" id="" class="category-list-item-checkbox input4" value="name=GI&i=4">
+            }
+            <span class="category-list-item-info">300.000đ - 500.000đ</span>
+        </a>
+    </li>
+    <li class="category-list-item">
+        <a href="/Product/FilterProduct?name=GI&i=5" style="display: flex; text-decoration: none;">
+            @{ int count4 = 0; }
+            @foreach (var i in gias)
+            {
+                if (i == 5)
+                {
+                    <input type="checkbox" name="" id="" class="category-list-item-checkbox input5" checked value="name=GI&i=5">
+                    count4++;
+                }
+            }
+            @if (count4 == 0)
+            {
+                <input type="checkbox" name="" id="" class="category-list-item-checkbox input5" value="name=GI&i=5">
+            }
+            <span class="category-list-item-info">500.000đ - 1.000.000đ</span>
+        </a>
+    </li>
+    <li class="category-list-item">
+        <a href="/Product/FilterProduct?name=GI&i=6" style="display: flex; text-decoration: none;">
+            @{ int count5 = 0; }
+            @foreach (var i in gias)
+            {
+                if (i == 6)
+                {
+                    <input type="checkbox" name="" id="" class="category-list-item-checkbox input6" checked value="name=GI&i=6">
+                    count5++;
+                }
+            }
+            @if (count5 == 0)
+            {
+                <input type="checkbox" name="" id="" class="category-list-item-checkbox input6" value="name=GI&i=6">
+            }
+            <span class="category-list-item-info">Giá  1.000.000đ</span>
+        </a>
+    </li>
+</ul>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".input1").click(function () {
+            window.location.href = 'FilterProduct?' + $(".input1").attr("value");
+        })
+        $(".input2").click(function () {
+            window.location.href = 'FilterProduct?' + $(".input2").attr("value");
+        })
+        $(".input3").click(function () {
+            window.location.href = 'FilterProduct?' + $(".input3").attr("value");
+        })
+        $(".input4").click(function () {
+            window.location.href = 'FilterProduct?' + $(".input4").attr("value");
+        })
+        $(".input5").click(function () {
+            window.location.href = 'FilterProduct?' + $(".input5").attr("value");
+        })
+        $(".input6").click(function () {
+            window.location.href = 'FilterProduct?' + $(".input6").attr("value");
+        })
+
+    })
+</script>

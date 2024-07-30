@@ -1,0 +1,56 @@
+﻿@model Perfume.Models.TaiKhoan
+<head>
+    <link rel="stylesheet" href="~/assets/css/login.css">
+</head>
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+@using (Html.BeginForm("Login", "Account", FormMethod.Post))
+{
+    <div class="Main">
+        <div class="login">
+            <h2 class="login-heading">Đăng nhập tài khoản</h2>
+            <div class="login-user">
+                <span class="login-user-account">
+                    Tên tài khoản
+                </span>
+                @Html.TextBoxFor(temp => temp.tentaikhoan, new { @class = "login-user-input", placeholder = "Tên đăng nhập" })
+                @Html.ValidationMessageFor(temp => temp.tentaikhoan)
+                @*<input class="login-user-input" type="text" name="" id="" placeholder="Email">*@
+                <div class="login-user">
+                    <span class="login-user-account">Mật Khẩu</span>
+                    @Html.PasswordFor(temp => temp.matkhau, new { @class = "login-user-input", placeholder = "Mật Khẩu" })
+                    @Html.ValidationMessageFor(temp => temp.matkhau)
+                    @*<input class="login-user-input" type="password" name="" id="" placeholder="Mật Khẩu">*@
+                </div>
+                <p>@ViewBag.thongbao</p>
+                <div class="login-remmember">
+                    <span class="login-remmember-checkbox"> <input type="checkbox" name="" id=""> &nbsp; Remmember me</span>
+                    <span class="login-forgot">Forgot password</span>
+                </div>
+            </div>
+            <div class="login-submit">
+                <input class="login-login" type="submit" value="Đăng nhập">
+            </div>
+            <div class="login-answer">
+                <p>Bạn đã chưa có tài khoản? <a href="./register.html">Đăng ký</a></p>
+            </div>
+            <h3 class="login-heading-h3">Hoặc đăng nhập bằng</h3>
+            <ul class="login-list">
+                <li>
+                    <a href="https://www.facebook.com/?stype=lo&jlou=AfeNXyjK34aZ7f3EQmXrkKKfTnrte22OnHzpWaJoi4X71exVX8jDu3vN4zjjoUXn6PswVbzPH7JUPrf4vjoRVksL3Sa-DRzbe-eKCVmWu73vnw&smuh=22373&lh=Ac_6VvLjwJik2rhUUw4"><i class="login-icon-f fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://accounts.google.com/v3/signin/identifier?dsh=S-1274313947%3A1683394990030513&authuser=0&continue=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3D%25C4%2591%25C4%2583ng%2Bnh%25E1%25BA%25ADp%2Bgg%26oq%3D%25C4%2591anh%2Bnh%25E1%25BA%25ADp%2Bgg%26aqs%3Dchrome.1.69i57j0i13i433i512j0i13i512l4j0i10i13i512j0i13i512l3.3919j0j7%26sourceid%3Dchrome%26ie%3DUTF-8&ec=GAlAAQ&hl=vi&flowName=GlifWebSignIn&flowEntry=AddSession"><i class="login-icon-g fa-brands fa-google"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/i/flow/login"><i class="login-icon-t fa-brands fa-twitter"></i></a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+}
+
+

@@ -1,0 +1,73 @@
+﻿<head>
+    <link rel="stylesheet" href="~/assets/css/detail.css">
+    <link rel="stylesheet" href="~/assets/css/homepage.css">
+    
+</head>
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="container__body">
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2" style="text-align: center;">
+                <img id="ProductImg" src="~/assets/img/single-product.png" alt="" width="100%">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img class="small-img" src="~/assets/img/single-product.png" alt="" width="100%">
+                    </div>
+                    <div class="small-img-col">
+                        <img class="small-img" src="~/assets/img/single-product-2.png" alt="" width="100%" height="100%">
+                    </div>
+                    <div class="small-img-col">
+                        <img class="small-img" src="~/assets/img/single-product-3.png" alt="" width="100%" height="100%">
+                    </div>
+                    <div class="small-img-col">
+                        <img class="small-img" src="~/assets/img/single-product-4.png" alt="" width="100%" height="100%">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-2">
+                <p class="single-product-category">Trang chủ / Nước Hoa </p>
+                <h1 class="single-product-heading">Nước Hoa Mini Versace Eros EDT 5ml</h1>
+                <p class="single-product-info">Thương hiệu : <span class="single-product-info-primary-color">Nước hoa mini</span></p>
+                <p class="single-product-info">Tình trạng : <span class="single-product-info-primary-color">Còn hàng</span></p>
+                <p class="single-product-info">Hạn sử dụng : <span class="single-product-info-primary-color">Trên 16 tháng</span></p>
+                <div class="single-product-price">
+                    <h1 class="single-product-price-new">155,000₫</h1>
+                    <del class="single-product-price-old">550,000₫</del>
+                    <div class="single-product-sale">
+                        <span class="single-product-sale-percent">- 66%</span>
+                    </div>
+                </div>
+                <span class="single-product-save">(Tiết kiệm: 395,000₫)</span>
+                <div class="single-product-type">
+                    <span class="single-product-capacity">Dung tích : &nbsp;</span>
+                    <select name="" id="" class="single-product-select">
+                        <option value="">5ml</option>
+                        <option value="">10ml</option>
+                        <option value="">50ml</option>
+                        <option value="">100ml</option>
+                    </select>
+                </div>
+                <div class="quantity">
+                    <span class="quantity-content">Số lượng: &nbsp;</span>
+                    <button class="decrease button" id="decrease">-</button>
+                    <input type="text" value="1" id="number">
+                    <button class="increase button" id="increase">+</button>
+                </div>
+                <div class="single-product-decision">
+
+                    <a href="./detail.html" class="btn" style="margin-right: 20px;">Mua Ngay</a>
+                    <a href="./cart.html" class="btn">Thêm Vào Giỏ hàng</a>
+                </div>
+                <h3 class="single-product-details">Thông tin sản phẩm</h3>
+                <p class="single-product-infomation">Nước hoa Versace Eros 5ml lấy nguồn cảm hứng từ vị thần tình yêu trong thần thoại thần thoại Hy Lạp - Eros, không hổ danh là “ông vua” của các hương thơm, với sự kết hợp mạnh mẽ và táo bạo, hiện thân của niềm đam mê vô tận, và ham muốn mãnh liệt. Sở hữu “chiếc áo khoác” xanh ngọc đầy ấn tượng, Eros ẩn giấu trong đó, hương thơm mạnh mẽ, cá tính pha chút nồng ấm của gỗ Phương Đông.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/assets/js/details.js"></script>
+

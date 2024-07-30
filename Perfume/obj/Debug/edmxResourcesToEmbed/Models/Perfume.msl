@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Perfume4ModelStoreContainer" CdmEntityContainer="Perfume4Entities2">
+    <EntitySetMapping Name="ChiTietHoaDons">
+      <EntityTypeMapping TypeName="Perfume4Model.ChiTietHoaDon">
+        <MappingFragment StoreEntitySet="ChiTietHoaDon">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idHoaDon" ColumnName="idHoaDon" />
+          <ScalarProperty Name="idsanPham" ColumnName="idsanPham" />
+          <ScalarProperty Name="soLuong" ColumnName="soLuong" />
+          <ScalarProperty Name="giamGia" ColumnName="giamGia" />
+          <ScalarProperty Name="thanhTien" ColumnName="thanhTien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GioHangs">
+      <EntityTypeMapping TypeName="Perfume4Model.GioHang">
+        <MappingFragment StoreEntitySet="GioHang">
+          <ScalarProperty Name="idGioHang" ColumnName="idGioHang" />
+          <ScalarProperty Name="idSanPham" ColumnName="idSanPham" />
+          <ScalarProperty Name="tenSanPham" ColumnName="tenSanPham" />
+          <ScalarProperty Name="soLuong" ColumnName="soLuong" />
+          <ScalarProperty Name="tongTien" ColumnName="tongTien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HoaDons">
+      <EntityTypeMapping TypeName="Perfume4Model.HoaDon">
+        <MappingFragment StoreEntitySet="HoaDon">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idTaiKhoan" ColumnName="idTaiKhoan" />
+          <ScalarProperty Name="ngayNhap" ColumnName="ngayNhap" />
+          <ScalarProperty Name="trangThai" ColumnName="trangThai" />
+          <ScalarProperty Name="tongTien" ColumnName="tongTien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Loais">
+      <EntityTypeMapping TypeName="Perfume4Model.Loai">
+        <MappingFragment StoreEntitySet="Loai">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Tenloai" ColumnName="Tenloai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sanPhams">
+      <EntityTypeMapping TypeName="Perfume4Model.sanPham">
+        <MappingFragment StoreEntitySet="sanPham">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="tenSanPham" ColumnName="tenSanPham" />
+          <ScalarProperty Name="hinhAnh" ColumnName="hinhAnh" />
+          <ScalarProperty Name="idThuongHieu" ColumnName="idThuongHieu" />
+          <ScalarProperty Name="idLoai" ColumnName="idLoai" />
+          <ScalarProperty Name="gia" ColumnName="gia" />
+          <ScalarProperty Name="tinhTrang" ColumnName="tinhTrang" />
+          <ScalarProperty Name="hanSuDung" ColumnName="hanSuDung" />
+          <ScalarProperty Name="dungTich" ColumnName="dungTich" />
+          <ScalarProperty Name="soLuong" ColumnName="soLuong" />
+          <ScalarProperty Name="moTa" ColumnName="moTa" />
+          <ScalarProperty Name="Yeuthich" ColumnName="Yeuthich" />
+          <ScalarProperty Name="SoSao" ColumnName="SoSao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaiKhoans">
+      <EntityTypeMapping TypeName="Perfume4Model.TaiKhoan">
+        <MappingFragment StoreEntitySet="TaiKhoan">
+          <ScalarProperty Name="idTaiKhoan" ColumnName="idTaiKhoan" />
+          <ScalarProperty Name="tentaikhoan" ColumnName="tentaikhoan" />
+          <ScalarProperty Name="matkhau" ColumnName="matkhau" />
+          <ScalarProperty Name="xacnhanmatkhau" ColumnName="xacnhanmatkhau" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="dienThoai" ColumnName="dienThoai" />
+          <ScalarProperty Name="diaChi" ColumnName="diaChi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="thuongHieux">
+      <EntityTypeMapping TypeName="Perfume4Model.thuongHieu">
+        <MappingFragment StoreEntitySet="thuongHieu">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="tenThuongHieu" ColumnName="tenThuongHieu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
